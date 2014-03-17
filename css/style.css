@@ -1,0 +1,46 @@
+button{
+    border:1px solid #ccc;
+    cursor:pointer;
+    display:block;
+    margin:auto;
+    position:relative;
+    top:100px;
+}
+
+.page_container{
+    width:auto;
+    height:auto;
+    background-color:#888;
+}
+
+.page_container ul {
+    padding:5px 5px 0 5px;
+}
+
+.page_container ul li{
+    list-style:none;
+    float:left;
+    display:inline-block;
+    font-size:16px;
+    line-height:25px;
+    background-color:yellow;
+    margin-right:5px;
+    padding-right:5px;
+    margin-bottom:5px;
+    padding-left:5px;
+}
+
+.page_container ul li a {
+    color:#666;
+    text-decoration:none;
+}
+
+.page_container ul li.current_page a {
+    color:#333;
+    text-decoration:underline;
+}
+
+.page_container ul li a:hover {
+    color:#333;
+    text-decoration:underline;
+}
